@@ -19,8 +19,5 @@ class Config(metaclass=MetaSingleton):
         loader = self.config_loader
         return {key: loader.get(key) for key in loader.keys()}
 
-TG_TOKEN = "TG_TOKEN"
-CHANNEL_ID =  "CHANNEL_ID"
-
 WEB_HOST = "WEB_HOST"
 WEB_PORT = "WEB_PORT"

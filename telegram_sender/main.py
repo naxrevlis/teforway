@@ -6,7 +6,6 @@ from uvicorn import config
 
 app = FastAPI(title="Telegram Sender")
 app.include_router(routes.router)
-app.add_route("send")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 # config and env
-
+.idea/
 .env
 config.yml
 

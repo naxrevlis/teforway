@@ -22,3 +22,4 @@ class Config(metaclass=MetaSingleton):
 
 WEB_HOST = "WEB_HOST"
 WEB_PORT = "WEB_PORT"
+TG_TOKEN = "TG_TOKEN"

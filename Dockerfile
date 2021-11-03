@@ -25,4 +25,4 @@ WORKDIR /telegram_sender
 
 ENV HOST 0.0.0.0
 ENV PORT 8001
-CMD uvicorn main:app --reload --host $HOST --port $PORT
+CMD uvicorn main:app --host $HOST --port $PORT
